@@ -166,3 +166,6 @@ footer a:hover { color: var(--text); }
 .fix-shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 @media (max-width: 760px) { .fix-shots { grid-template-columns: repeat(8, 62%); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; } .fix-shots .phone { scroll-snap-align: start; } }
 .fix-shots .phone { aspect-ratio: 1320 / 2868; }
+.brand-icon { display: inline-block; width: 28px; height: 28px; border-radius: 7px; vertical-align: -6px; margin-right: 8px; }
+.app-icon { width: 112px; height: 112px; border-radius: 25px; border: 1px solid var(--line); margin-bottom: 22px; }
+.app-icon.sm { width: 72px; height: 72px; border-radius: 16px; margin-bottom: 16px; }
